@@ -1,0 +1,22 @@
+{
+    "name": "Selected_Text_Speech",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "選択したテキストを読み上げる",
+	"icons": {
+        "16": "images/icon16.png"
+    },
+	"permissions": [
+		"activeTab",
+		"scripting",
+		"contextMenus"
+	],
+    "background": {
+		"scripts": ["background.js"]
+	},
+	"browser_action": {
+		"default_icon": {
+			"16": "images/icon16.png"
+		}
+	}
+}
